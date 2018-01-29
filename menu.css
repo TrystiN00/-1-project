@@ -1,0 +1,33 @@
+nav
+{
+	overflow:hidden;
+}
+nav a
+{
+	display:block;
+	width:25%;
+	float:left;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	background-color:cyan;
+	padding: 15px 30px;
+	transition: all 1s ease;
+}
+@media (max-width: 650px)
+{
+	nav a 
+	{
+		width: 50%;
+		font-size: 16px;
+	}
+	
+}
+@media (max-width:500px)
+{
+	nav a
+	{
+		width: 100%;
+	}
+	
+}
